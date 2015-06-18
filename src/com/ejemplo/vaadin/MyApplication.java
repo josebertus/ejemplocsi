@@ -15,7 +15,7 @@ import com.vaadin.ui.Window;
 
 /**
  *
- * @author Alberto
+ * @author Alberto mUÑOZ
  * @version
  */
 public class MyApplication extends Application implements ClickListener {
@@ -31,7 +31,7 @@ public class MyApplication extends Application implements ClickListener {
     @Override
     public void init() {
         Window mainWindow = new Window("Aplicacion");
-        Label label = new Label("<h2>Ejemplo de Vaadin, Hibernate y Spring MVC/REST</h2>", Label.CONTENT_XHTML);
+        Label label = new Label("<h2>EjemploS de Vaadin, Hibernate y Spring MVC/REST</h2>", Label.CONTENT_XHTML);
         mainWindow.addComponent(label);
         
         
